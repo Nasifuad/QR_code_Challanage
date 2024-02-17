@@ -3,12 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
 body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
 }
 main{
     height: 550px;
@@ -20,6 +23,7 @@ main{
     align-items: center;
     padding: 10px;
     text-align: center;
+    margin: 0px 1em;
 }
 img{
     width: 320px;
@@ -27,12 +31,14 @@ img{
     padding: 5px;
 }
 h1{
+    color:  hsl(218, 44%, 22%);
     font-size: 25px;
     padding: 20px;
     font-weight: bold;
     
 }
 p{
+    color: hsl(220, 15%, 55%);
     padding: 0 20px 20px 20px;
     font-size: 20px;
     
